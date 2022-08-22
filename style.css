@@ -1,6 +1,11 @@
+body{
+    /* width: fit-content; */
+}
+
 .header{
     background-color: #0AAAA0;
     height: 2.5rem;
+    width: auto;
 }
 
 .social{
@@ -138,6 +143,8 @@ background-color: rgb(218, 240, 231);
     width: max-content;
 }
 
+
+
 /* --------------------media query---------------- */
 
 @media only screen and (max-width: 592px) {
@@ -151,8 +158,9 @@ background-color: rgb(218, 240, 231);
         float:right;
     }
     
+    
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     .header{
         width: max-content;
 
@@ -166,6 +174,13 @@ background-color: rgb(218, 240, 231);
     }
     .side-container{
         display: none;
+    }
+    .background{
+        height: auto;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
     }
     /* .body{
         margin: 0px;
