@@ -1,0 +1,68 @@
+body{
+    overflow-x: hidden;
+}
+.maindiv{
+    display: flex;
+    /* width: fit-content; */
+    /* background-color: aqua; */
+}
+.firstimg>img{
+ height: 40vh;
+ width: 50vw;
+}
+
+/* trending stories */
+.container-stories > .block-title{
+    text-align: center;
+    display: block;
+    height: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+.block-title span{
+    width: 20%;
+    background: #fff;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: -10px;
+    display: block;
+}
+.container-stories{
+    width: 90vw;
+    margin: auto;
+}
+.trending-cards{
+    /* width: fit-content; */
+    margin-left: 1rem;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+.card{
+    width: 25rem !important;
+    height: 20rem !important;
+}
+.card-img-top{
+    height: 12rem !important;
+}
+
+/* video section */
+.videos{
+    margin-top: 5rem;
+}
+.videoCard{
+    height: 15rem !important;
+}
+
+/* quote css */
+.quoteCard{
+    height: 12rem !important;
+}
