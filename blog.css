@@ -65,6 +65,7 @@ body{
     margin-left: 1rem;
     justify-content: space-evenly;
     margin-bottom: 1rem;
+    padding: 5px 5px;
 }
 .card{
     width: 25rem !important;
@@ -86,4 +87,41 @@ body{
 /* quote css */
 .quoteCard{
     height: 12rem !important;
+}
+
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1400px) {
+.body{
+    margin: 0px;
+}
+.card{
+    width: 20rem !important;
+    height: 17rem !important;
+    padding: 7px 7px;
+    margin: 7px 7px;
+}
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 899px) {
+    .left-side{
+        display: none;
+    }
+    .right-side .firstimg{
+        width: 90vw;
+    }
+    .trending-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-stories{
+        margin-right: 4rem;
+        width: auto;
+    }
+    .card{
+        margin: auto;
+        margin-bottom: 1rem;
+    }
 }
