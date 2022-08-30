@@ -1,3 +1,4 @@
+
 .header{
     background-color: #0AAAA0;
     height: 2.5rem;
@@ -712,6 +713,10 @@
     .subVid h4{
         font-size: 15px;
         width: 100%;
+    }
+    .mainDiv{
+        display: flex;
+        /* flex-direction: column; */
     }
     .footer{
         display: flex;

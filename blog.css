@@ -1,6 +1,4 @@
-/* body{
-    overflow-x: hidden;
-} */
+
 .maindiv{
     display: flex;
     width: 90vw;
@@ -46,7 +44,7 @@
     border-bottom: 2px solid #ddd;
     position: relative;
     margin-bottom: 70px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 .block-title span{
     width: 20%;
@@ -80,10 +78,14 @@
 .card-img-top{
     height: 12rem !important;
 }
+.pagination1{
+    display: flex;
+    justify-content: center;
+}
 
 /* video section */
 .videos{
-    margin-top: 5rem;
+    margin-top: 2rem;
     flex-wrap: nowrap;
 }
 .videoCard{
@@ -94,9 +96,18 @@
 .quoteCard{
     height: 13rem !important;
 }
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
 
+a:hover{
+    color: rgb(70, 201, 230) !important;
+}
 
-
+img{
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 900px) and (max-width: 1400px) {
 .body{
@@ -104,7 +115,7 @@
 }
 .card{
     width: 20rem !important;
-    height: 17rem !important;
+    height: 19 !important;
     padding: 7px 7px;
     margin: 7px 7px;
 }
@@ -112,13 +123,13 @@
     height: 9rem;
     width: fit-content;
     font-size: small;
-    text-emphasis:inherit;
+    
 }
 
 
 }
 
-@media only screen and (min-width: 200px) and (max-width: 899px) {
+@media only screen and (min-width: 500px) and (max-width: 899px) {
     .left-side{
         display: none;
     }
@@ -136,9 +147,33 @@
     }
     .card{
         margin-bottom: 1rem;
-        width: 20rem !important;
-        height: 17rem !important;
-        padding: 7px 7px;
-        margin: 7px 7px;
+        width: 30rem !important;
+        /* padding: 7px 7px;
+        margin: 7px 7px; */
     }
+}
+
+@media only screen and (max-width: 499px) {
+    .left-side{
+        display: none;
+    }
+    .right-side .firstimg{
+        width: 90vw;
+    }
+    .trending-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-stories{
+        margin-right: 1rem;
+        width: auto;
+    }
+    .card{
+        margin-bottom: 1rem;
+        width: 19rem !important;
+        /* padding: 7px 7px;
+        margin: 7px 7px; */
+    }
+
 }
