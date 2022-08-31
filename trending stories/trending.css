@@ -3,7 +3,7 @@
 }
 .card .firstimg{
     height: 50vh;
-    width: 45vw;
+    width: 50vw;
     margin-bottom: 1rem;
    }
 .card .secondimg{
@@ -24,7 +24,21 @@
     color: antiquewhite;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
+
+    .card .firstimg{
+        height: 50vh;
+        width: 80vw;
+        margin-bottom: 1rem;
+       }
+    .card .secondimg{
+        height: 45vh;
+        width: 80vw;
+        margin: 1rem 2rem 1rem .5rem;
+    }
+    .cards{
+        width: 90vw;
+    }
 
 
 }
