@@ -27,8 +27,8 @@
 @media only screen and (max-width: 1000px) {
 
     .card .firstimg{
-        height: 50vh;
-        width: 80vw;
+        height: 40vh;
+        width: 70vw;
         margin-bottom: 1rem;
        }
     .card .secondimg{
