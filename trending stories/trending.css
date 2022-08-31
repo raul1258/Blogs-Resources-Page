@@ -1,0 +1,30 @@
+.tags{
+    background-color: #0AAAA0;
+}
+.card .firstimg{
+    height: 50vh;
+    width: 45vw;
+    margin-bottom: 1rem;
+   }
+.card .secondimg{
+    height: 45vh;
+    width: 40vw;
+    margin: 1rem 0 1rem 1.5rem;
+}
+.blockquote{
+    background-color: rgb(223, 235, 187);
+    color: rgb(89, 141, 231);
+    margin-left: 1rem;
+}
+.cards{
+    width: 58vw;
+}
+.warriortips{
+    background-color: rgb(70, 70, 70);
+    color: antiquewhite;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+
+
+}

@@ -573,9 +573,9 @@
         width: 46rem;
         margin-bottom: 4rem;
     }
-    /* .Vhead{
+    .Vhead{
         margin: 0 auto;
-    }
+    } 
     .videos{
         margin: 0 auto;
         font-weight: bold;
@@ -586,7 +586,7 @@
         margin: 0rem auto;
         padding-left: 0;
         font-weight: bold;
-    } */
+    }
     .details{
         margin: 0rem auto;
         color: white;
