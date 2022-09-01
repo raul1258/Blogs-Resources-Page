@@ -159,6 +159,7 @@ img{
     }
     .right-side .firstimg{
         width: 90vw;
+        height: 45vh;
     }
     .trending-cards{
         display: flex;
