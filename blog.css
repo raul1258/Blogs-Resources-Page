@@ -8,6 +8,11 @@
     /* background-color: aqua; */
     margin-bottom: 1rem;
 }
+.maindiv .headingtext{
+    text-decoration: underline;
+    font-size: 1rem;
+    color: rgb(95, 109, 109);
+}
 .maindiv .right-side{
     width: min-content;
     
