@@ -23,10 +23,25 @@
     background-color: rgb(70, 70, 70);
     color: antiquewhite;
 }
- .letsalk{
-    width: 20rem !important; 
-    height: 10rem !important;
+.videos img{
+    width: 20rem;
+    margin-left: 9rem;
+    /* margin-top: 10rem; */
+}
+.videos h1{
+    width: 21rem; margin-top: 4rem; margin-left: 9rem; text-decoration: underline;
+}
+@media only screen and (max-width: 1400px) {
+
+    .videos img{
+        width: 20rem;
+        margin-left: -3rem;
+        /* margin-top: 10rem; */
     }
+    .videos h1{
+        margin-left: -3rem;
+    }
+}
 @media only screen and (max-width: 1000px) {
 
     .card .firstimg{
