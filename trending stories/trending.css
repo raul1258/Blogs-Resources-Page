@@ -23,6 +23,10 @@
     background-color: rgb(70, 70, 70);
     color: antiquewhite;
 }
+ .letsalk{
+    width: 20rem !important; 
+    height: 10rem !important;
+    }
 @media only screen and (max-width: 1000px) {
 
     .card .firstimg{
